@@ -61,7 +61,7 @@ const ButtonIcon = React.forwardRef<
 >(({ className, icon, ...props }, ref) => {
   return (
     <span
-      className={cn("me-2 text-base md:text-2xl", className)}
+      className={cn("text-base md:text-2xl", className)}
       ref={ref}
       {...props}
     >
