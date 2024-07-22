@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils/cn"
 /** FIXME: TEMP COMPONENT FOR TESTING PURPOSES */
 
 const buttonVariants = cva(
-  "inline-flex items-center justify-cente whitespace-nowrap rounded font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50",
+  "inline-flex items-center justify-center whitespace-nowrap rounded font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50",
   {
     variants: {
       variant: {
